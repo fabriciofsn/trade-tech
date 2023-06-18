@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: neo;
+}
+
+@font-face {
+  font-family: neo;
+  src: url("./font-neo/NeoSans\ Medium\ TR.otf");
+}
