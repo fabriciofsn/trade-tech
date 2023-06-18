@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: neo;
+  font-family: glacial;
 }
 
 @font-face {
   font-family: neo;
   src: url("./font-neo/NeoSans\ Medium\ TR.otf");
+}
+
+@font-face {
+  font-family: glacial;
+  src: url("./font-glacial/GlacialIndifference-Regular.otf");
 }
