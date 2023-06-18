@@ -1,8 +1,8 @@
 import React from "react";
 import { DivLogin } from "./styledLogin";
 import Button from "../../components/Button/Button";
-import { AiOutlineUser } from "react-icons/ai";
-import { AiFillLock } from "react-icons/ai";
+import { SlUser } from "react-icons/sl";
+import { BiLockAlt } from "react-icons/bi";
 
 const Login = () => {
   const fields = [
@@ -10,13 +10,13 @@ const Login = () => {
       type: "text",
       label: "email",
       example: "seuemail@domain.com",
-      icon: <AiOutlineUser size={20} />,
+      icon: <SlUser size={20} />,
     },
     {
       type: "password",
       label: "senha",
       example: "••••••••••••",
-      icon: <AiFillLock size={20} />,
+      icon: <BiLockAlt size={25} />,
     },
   ];
 

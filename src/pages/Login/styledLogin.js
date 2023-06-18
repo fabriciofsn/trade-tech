@@ -58,6 +58,7 @@ export const DivLogin = styled.div`
     display: flex;
     align-items: center;
     border-bottom: 2px solid #010937;
+    border-bottom-right-radius: 15px;
   }
 
   h1 {
@@ -69,5 +70,9 @@ export const DivLogin = styled.div`
     width: 100%;
     margin: 5px 0;
     font-size: 1.1rem;
+
+    a {
+      color: #101f78;
+    }
   }
 `;
