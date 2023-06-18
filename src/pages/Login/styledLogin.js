@@ -28,6 +28,7 @@ export const DivLogin = styled.div`
     display: block;
     text-transform: capitalize;
     font-size: 1.5rem;
+    margin-top: 20px;
   }
 
   input,
@@ -61,5 +62,12 @@ export const DivLogin = styled.div`
 
   h1 {
     color: #1c31a5;
+  }
+
+  .forgotPass {
+    text-align: right;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1.1rem;
   }
 `;
