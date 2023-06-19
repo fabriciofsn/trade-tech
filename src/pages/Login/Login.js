@@ -44,11 +44,16 @@ const Login = () => {
             );
           })}
           <div className="forgotPass">
+            <label htmlFor="remember">
+              <input type="checkbox" id="remember" />
+              Lembrar Dados
+            </label>
             <a href="#">
               <b>
                 <i>Esqueceu a senha?</i>
               </b>
             </a>
+            
           </div>
           <Button nome="Entrar" />
         </form>

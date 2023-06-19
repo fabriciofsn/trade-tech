@@ -68,11 +68,28 @@ export const DivLogin = styled.div`
   .forgotPass {
     text-align: right;
     width: 100%;
-    margin: 5px 0;
+    margin: 15px 0;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     a {
       color: #101f78;
+    }
+
+    label {
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      color: #101f78;
+      font-weight: bold;
+      margin: -5px 0;
+    }
+
+    input {
+      width: 1rem;
+      margin: 0 5px;
     }
   }
 `;
